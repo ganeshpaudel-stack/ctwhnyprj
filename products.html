@@ -1,40 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Products - Pure Honey Nepal</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body >
+<body>
 
-<ul >
-  <li><a href="index.html">Home</a></li>
-  <li><a href="about.html">About Us</a></li>
-  <li><a href="products.html">Products</a></li>
-  <li><a href="contact.html">Contact</a></li>
-</ul>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="products.html" class="active">Products</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
 
-<h1> <center>Our Honey Products</center></h1>
+<section class="hero">
+  <h1>Our Honey Products</h1>
+  <p>
+    We offer a wide range of pure and natural honey from different regions of Nepal. Each product is chemical-free and packed with health benefits.
+  </p>
+</section>
 
-<p>
-We offer a wide range of natural honey products collected from different regions of 
-Nepal. Each type of honey has its own unique taste, color, and medicinal benefits. 
-From wild cliff honey to floral honey produced in the Terai region, we ensure 
-quality, purity, and freshness. Our bottles are sealed properly without any 
-preservatives or artificial ingredients. Here are some of our most popular honey 
-products:
-</p>
+<div class="product-container">
+    <div class="product-card">
+        <img src="honey.jpeg" alt="Wild Cliff Honey">
+        <h3>Wild Cliff Honey</h3>
+        <p class="price">Rs. 1,800</p>
+        <button class="cart-button">Add to Cart</button>
+        <button class="Buy-button">Buy Now</button>
+        <p class="desc">Rare and powerful honey collected from Himalayan cliffs.</p>
+        <span class="tag red">Popular</span>
+    </div>
 
-<h2>Available Honey Types</h2>
+    <div class="product-card">
+        <img src="item.jpeg" alt="Mustard Honey">
+        <h3>Mustard Flower Honey</h3>
+        <p class="price">Rs. 900</p>
+        <button class="cart-button">Add to Cart</button>
+        <button class="Buy-button">Buy Now</button>
+        <p class="desc">Light-colored honey with smooth taste and aroma.</p>
+        <span class="tag green">Organic</span>
+    </div>
 
-<ul>
-  <li>Wild Cliff Honey (Mad Honey)</li>
-  <li>Mustard Flower Honey</li>
-  <li>Sunflower Honey</li>
-  <li>Rhododendron Honey</li>
-</ul>
+    <div class="product-card">
+        <img src="product.jpeg" alt="Rhododendron Honey">
+        <h3>Rhododendron Honey</h3>
+        <p class="price">Rs. 1,200</p>
+        <button class="cart-button">Add to Cart</button>
+        <button class="Buy-button">Buy Now</button>
+        <p class="desc">Healthy floral honey rich in antioxidants.</p>
+        <span class="tag blue">New</span>
+    </div>
+</div>
 
-<img style="margin-right: 30px" src="honey.jpeg" width="300" height="300">
-<img style="margin-right: 30px;"  src="item.jpeg" width="300" height="300">
-<img src="product.jpeg" width="300" height="300">
+<footer>
+    &copy; 2026 Chitwan Honey Nepal | All Rights Reserved
+</footer>
 
 </body>
 </html>
